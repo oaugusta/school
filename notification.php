@@ -1,8 +1,8 @@
 <?php
 
 function notification($name, $day, $action) {
-
-    $url = 'https://maker.ifttt.com/trigger/school_oa/with/key/8JLDe1G5WC651lTyEs18x';
+    //this function sends a system notification
+    $url = ''; //your ifttt maker (webhooks) trigger url goes here
     
     switch ($day) {
             case 1:
@@ -39,8 +39,8 @@ function notification($name, $day, $action) {
 
 
 function reminder($subject, $content, $meeting) {
-
-    $url = 'https://maker.ifttt.com/trigger/lesson/with/key/lP9cV5n5XXhvK4nHIyjkk3Iug2YyAi3XOzcec6zVqS2';
+    //this function sends the lesson reminder
+    $url = ''; //your ifttt maker (webhooks) trigger url goes here
     
     $data = array('value1' => $subject, 'value2' => $content, 'value3' => $meeting);
     
