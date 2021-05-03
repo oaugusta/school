@@ -5,10 +5,10 @@
  * 
  * Made by Ondřej Augusta, hello@ondrejaugusta.cz, ondrejaugusta.cz
 **/
-    $host = 'innodb.endora.cz';
-    $user = 'schooldb';
-    $password = 'Z8kBFYcZoR';
-    $database = 'schooldb';
+    $host = 'a';
+    $user = 'b';
+    $password = 'c';
+    $database = 'd';
     $sql = mysqli_connect($host, $user, $password, $database);
     if (mysqli_connect_errno()) {
         exit('Connect failed: '. mysqli_connect_error());
