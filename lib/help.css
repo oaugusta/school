@@ -1,0 +1,19 @@
+.help {
+    position: fixed;
+    display: block;
+    width: 32px;
+    height: 32px;
+    bottom: 30px;
+    right: 30px;
+    background-image: url("https://ondrejaugusta.cz/school/img/help.png");
+    background-size: 32px;
+}
+.help:hover {
+    -webkit-animation:spin 2s linear infinite;
+    -moz-animation:spin 2s linear infinite;
+    animation:spin 2s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } } 
